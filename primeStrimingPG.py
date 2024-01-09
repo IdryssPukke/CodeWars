@@ -7,8 +7,8 @@ class Primes:
         yield 2
         yield 3
         yield 5
-        MASK= 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0,
-        MODULOS= frozenset( (1, 7, 11, 13, 17, 19, 23, 29) )
+        MASK = 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0,
+        MODULOS = 1, 7, 11, 13, 17, 19, 23, 29
 
         for q in it.compress(
                 it.islice(it.count(7), 0, None, 2),
