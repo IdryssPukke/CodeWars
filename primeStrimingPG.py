@@ -1,3 +1,5 @@
+#this is erat3 python implementation
+
 import itertools as it
 
 class Primes:
