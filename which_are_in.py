@@ -1,16 +1,6 @@
 """return words from one string that are in the second one"""
 
 def in_array(array1, array2):
-    """
-    return words from one string that are in the second one
-
-    Args:
-        array1 (array): array of strings
-        array2 (array): array of strings
-
-    Returns:
-        array: words that are from array1 and in array2
-    """
     final = []
     for a1 in array1:
         for a2 in array2:
