@@ -1,7 +1,7 @@
 def solution(args):
     final = ''
     span = 0
-    args += [0]
+    args += [0] 
     for x in range(len(args)-1):
         if abs(args[x+1] - args[x]) == 1:
             span += 1
