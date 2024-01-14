@@ -1,3 +1,5 @@
+"""return words from one string that are in the second one"""
+
 def in_array(array1, array2):
     """
     return words from one string that are in the second one
