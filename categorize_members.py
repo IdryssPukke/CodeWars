@@ -1,3 +1,5 @@
+""""""
+
 def open_or_senior(data):
     results = []
     for element in data:
